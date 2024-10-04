@@ -1,7 +1,12 @@
 import React from "react";
+import Window from "./Pages/Window";
 
 const App = () => {
-  return <div className="font-bold">Code Edito</div>;
+  return (
+    <div>
+      <Window />
+    </div>
+  );
 };
 
 export default App;
